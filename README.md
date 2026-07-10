@@ -1,81 +1,69 @@
 # Chukwuma Zikora
-## Senior Software Engineer & AI Systems Architect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](http://www.linkedin.com/in/chukwumazikora)
+## Senior Software Engineer | Full-Stack & Platform Infrastructure
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chukwumazikora)
 [![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://chukwumaijem.github.io/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chukwuma.zikora@gmail.com)
 
 ---
 
-## 🎯 What I Do
+## What I Do
 
-I architect and build **AI-powered systems** that scale from zero to millions of users. My sweet spot? Taking complex problems and turning them into elegant, production-ready solutions that actually work.
-
-**Currently:** Building AI-powered systems, video processing pipelines, and enterprise-grade microservices
+I build software — and the systems that keep it running. Senior software engineer based in Nigeria with 10+ years shipping full-stack SaaS products and owning the CI/CD, cloud, and containerised infrastructure that keeps them reliable in production.
 
 ---
 
-## 🧠 Core Expertise
+## Core Expertise
 
-### **AI & Machine Learning**
-- **LLM Orchestration:** LangGraph, LangChain, Vercel AI SDK
-- **AI Agents:** Research agents, document processing, embeddable chatbots
-- **ML Infrastructure:** Ollama, LlamaIndex, Openrouter, custom AI pipelines
+### Platform & Infrastructure
 
-### **Cloud-Native Architecture**
-- **Infrastructure:** Kubernetes, Docker Swarm, Helm
-- **DevOps:** AWS, GitHub Actions, CI/CD, monitoring & observability
-- **Microservices:** Event-driven architectures, service mesh, API gateways
+- **Containers & Orchestration:** Docker, Kubernetes, Helm
+- **CI/CD & Automation:** GitHub Actions, GitLab CI/CD, CircleCI, Ansible
+- **Cloud:** AWS (Lambda, API Gateway, serverless), multi-environment deployments
 
-### **Full-Stack Development**
-- **Frontend:** React, Next.js, TypeScript, Tailwind CSS
-- **Backend:** Node.js, Express, NestJS, GraphQL
-- **Databases:** PostgreSQL, MongoDB, TursoDB
-- **ORMs:** Prisma, Drizzle, Sequelize
+### Full-Stack Development
+
+- **Frontend:** TypeScript, React, Next.js, Vue.js, Redux / Pinia
+- **Backend:** Node.js, NestJS, Express, REST, GraphQL (Hasura & Apollo), microservices
+- **Databases & ORMs:** PostgreSQL, MongoDB, TursoDB, Redis · Prisma, DrizzleORM, Sequelize
+- **Testing:** Jest, Playwright, Vitest
 
 ---
 
-## 🚀 Featured Projects
+## Featured Work
 
-### **AI Trading Platform** 
-*AI Trader*
-- Built with SST, OpenAI SDK, and DrizzleORM
-- Real-time market data processing and AI-driven trading signals
-- Serverless architecture with AWS Lambda
+### Products — [BlockQueue Systems](https://chukwumaijem.github.io/projects)
 
-### **Video Processing Studio** 
-*FlowStudio - AI Video Pipeline*
-- Monorepo with Turbo, React, and custom video processing lambdas
-- AI-powered video editing and transformation workflows
-- Scalable microservices architecture
+**[Property Governors](https://propertygovernors.com)**  
+Multi-sided property management SaaS for landlords, managers, tenants, and vendors — RBAC, lease workflows, multi-provider rent collection, and end-to-end cloud infrastructure.
 
-### **Enterprise Scheduler** 
-*Job Orchestration Service*
-- Multi-tenant job scheduling with monitoring dashboard
-- Docker-based deployment with PostgreSQL and Redis
-- Built with Next.js, TypeScript, and Turbo
+**[FirmLyt](https://firmlyt.com)**  
+Legal practice management SaaS for the Nigerian market — case management, client portals, contract tools, AI-assisted case law research, and AWS deployment.
 
-### **Smart Document Processing** 
-*AI-Powered Document Intelligence*
-- LangChain-based document analysis and extraction
-- Multi-format support with intelligent categorization
-- React-based dashboard with real-time processing
-- Chat and Search widgets embeddable into 3rd party websites
+### Open Source — [blockqueue](https://github.com/blockqueue)
+
+**[Mailer](https://github.com/blockqueue/mailer)** · TypeScript · Apache-2.0  
+Self-hostable email orchestration microservice: pluggable templates (React Email, MJML, HTML), dual auth (API keys & HMAC), rate limiting, and Docker-first config.
+
+**[BQ Queue](https://github.com/blockqueue/bq-queue)** · TypeScript · Apache-2.0  
+Self-hostable job queue and signed webhook delivery on PostgreSQL / pg-boss — shared scheduling, idempotency, and Docker Compose for multi-service backends.
 
 ---
 
-## 🛠️ Tech Stack Deep Dive
+## Tech Stack
 
 ```typescript
 const techStack = {
-  languages: ['TypeScript', 'JavaScript', 'Go', 'Python'],
-  frontend: ['React', 'Next.js', 'Vue.js', 'Tailwind CSS'],
-  backend: ['Node.js', 'Express', 'NestJS', 'GraphQL'],
-  databases: ['PostgreSQL', 'MongoDB', 'TursoDB', 'Redis'],
-  ai: ['LangGraph', 'LangChain', 'OpenAI SDK', 'Ollama'],
-  cloud: ['AWS', 'DigitalOcean', 'Docker', 'Kubernetes'],
-  tools: ['Turbo', 'SST', 'Prisma', 'DrizzleORM']
-}
+  languages: ["TypeScript", "JavaScript", "Go", "Python"],
+  frontend: ["React", "Next.js", "Vue.js", "Tailwind CSS"],
+  backend: ["Node.js", "Express", "NestJS", "GraphQL"],
+  databases: ["PostgreSQL", "MongoDB", "TursoDB", "Redis"],
+  orms: ["Prisma", "DrizzleORM", "Sequelize"],
+  platform: ["Docker", "Kubernetes", "Helm", "AWS"],
+  cicd: ["GitHub Actions", "GitLab CI", "CircleCI", "Ansible"],
+  tools: ["Turbo", "SST", "Playwright", "Jest"],
+};
 ```
 
 ---
@@ -88,32 +76,21 @@ const techStack = {
 
 ---
 
-## �� Learning Journey
+## Focus Right Now
 
-- **AI/ML:** Building research agents, LLM applications, and autonomous systems
-- **Infrastructure:** Mastering HashiCorp stack (Consul, Nomad, Terraform)
-- **Web3:** Exploring smart contracts and decentralized applications
-- **Performance:** Optimizing systems for speed, reliability, and cost efficiency
-
----
-
-## 💼 Let's Build Something Amazing
-
-I'm always interested in:
-- **AI/ML Projects:** Especially those involving LLMs, agents, or autonomous systems
-- **Scale Challenges:** Systems that need to handle massive growth
-- **Innovation:** Cutting-edge tech that pushes the boundaries of what's possible
+- **Platform engineering:** Reliable CI/CD, container orchestration, and cloud architecture for production SaaS
+- **Product building:** Shipping and operating BlockQueue products for the African market
+- **Kubernetes:** Deepening practice toward CKAD
+- **Open source:** Self-hostable infrastructure tooling under [blockqueue](https://github.com/blockqueue)
 
 ---
 
 ## Get In Touch
 
 - **Email:** [chukwuma.zikora@gmail.com](mailto:chukwuma.zikora@gmail.com)
-- **LinkedIn:** [linkedin.com/in/chukwumazikora](http://www.linkedin.com/in/chukwumazikora)
+- **LinkedIn:** [linkedin.com/in/chukwumazikora](https://www.linkedin.com/in/chukwumazikora)
 - **Portfolio:** [chukwumaijem.github.io](https://chukwumaijem.github.io/)
 
 ---
 
-> *"Control freak is a word people with low standards use to describe people with high standards. You are not a control freak; you want it done right the first time. You are not anxious; you care. Do not expect mediocre people to support world-class goals."*
-
-*Currently building the future, one commit at a time.* 🚀
+> _"Success is not final, failure is not fatal: it is the courage to continue that counts.."_
