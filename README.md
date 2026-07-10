@@ -33,14 +33,6 @@ I build software — and the systems that keep it running. Senior software engin
 
 ## Featured Work
 
-### Products — [BlockQueue Systems](https://chukwumaijem.github.io/projects)
-
-**[Property Governors](https://propertygovernors.com)**  
-Multi-sided property management SaaS for landlords, managers, tenants, and vendors — RBAC, lease workflows, multi-provider rent collection, and end-to-end cloud infrastructure.
-
-**[FirmLyt](https://firmlyt.com)**  
-Legal practice management SaaS for the Nigerian market — case management, client portals, contract tools, AI-assisted case law research, and AWS deployment.
-
 ### Open Source — [blockqueue](https://github.com/blockqueue)
 
 **[Mailer](https://github.com/blockqueue/mailer)** · TypeScript · Apache-2.0  
