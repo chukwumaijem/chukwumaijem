@@ -8,8 +8,8 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">Chukwuma Zikora's GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 175, Total Commits  (last year) : 79, Total PRs: 173, Total Issues: 35, Contributed to (last year): 2</desc>
+        <title id="titleId">Chukwuma Zikora&#39;s GitHub Stats, Rank: A-</title>
+        <desc id="descId">Total Stars Earned: 176, Total Commits  (last year) : 79, Total PRs: 173, Total Issues: 35, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 92.36667279672106;
+        stroke-dashoffset: 92.28429737479802;
       }
     }
   
@@ -126,7 +126,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >Chukwuma Zikora's GitHub Stats</text>
+      >Chukwuma Zikora&#39;s GitHub Stats</text>
     </g>
       </g>
     
@@ -162,7 +162,7 @@
         x="224.01"
         y="12.5"
         data-testid="stars"
-      >175</text>
+      >176</text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms" transform="translate(25, 0)">
