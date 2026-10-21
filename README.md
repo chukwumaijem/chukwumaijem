@@ -1,87 +1,96 @@
 # Chukwuma Zikora
 
-## Senior Software Engineer | Full-Stack & Platform Infrastructure
+### DevOps / Platform Engineer
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chukwumazikora)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://chukwumaijem.github.io/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chukwuma.zikora@gmail.com)
+CI/CD · Containers · Kubernetes · Observability · Infrastructure automation
 
----
-
-## What I Do
-
-I build software — and the systems that keep it running. Senior software engineer based in Nigeria with 10+ years shipping full-stack SaaS products and owning the CI/CD, cloud, and containerised infrastructure that keeps them reliable in production.
+[![Portfolio](https://img.shields.io/badge/Portfolio-chukwumaijem.github.io-0D6E6E?style=for-the-badge&logo=githubpages&logoColor=white)](https://chukwumaijem.github.io/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-chukwumazikora-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/chukwumazikora)
+[![Email](https://img.shields.io/badge/Email-chukwuma.zikora@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chukwuma.zikora@gmail.com)
+[![Labs](https://img.shields.io/badge/Labs-playground--devops-2088FF?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chukwumaijem/playground-devops)
 
 ---
 
-## Core Expertise
+## About
 
-### Platform & Infrastructure
+I build and operate the systems that ship software reliably.
 
-- **Containers & Orchestration:** Docker, Kubernetes, Helm
-- **CI/CD & Automation:** GitHub Actions, GitLab CI/CD, CircleCI, Ansible
-- **Cloud:** AWS (Lambda, API Gateway, serverless), multi-environment deployments
+After 10+ years as a software engineer (healthcare SaaS and product work), I deliberately shifted into **DevOps / Platform Engineering**. Today I care about one question: can we deploy safely, observe clearly, and recover fast?
 
-### Full-Stack Development
+**Open to:** DevOps Engineer · Platform Engineer · Cloud Engineer · Junior-mid SRE (remote)
 
-- **Frontend:** TypeScript, React, Next.js, Vue.js, Redux / Pinia
-- **Backend:** Node.js, NestJS, Express, REST, GraphQL (Hasura & Apollo), microservices
-- **Databases & ORMs:** PostgreSQL, MongoDB, TursoDB, Redis · Prisma, DrizzleORM, Sequelize
-- **Testing:** Jest, Playwright, Vitest
+📍 Nigeria · Africa / EU-friendly hours
 
 ---
 
-## Featured Work
+## What I work with
 
-### Open Source — [blockqueue](https://github.com/blockqueue)
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,aws,ansible,githubactions,prometheus,grafana,bash,nginx,postgres,nodejs&perline=6" alt="DevOps and platform skills" />
+  </a>
+</p>
 
-**[Mailer](https://github.com/blockqueue/mailer)** · TypeScript · Apache-2.0  
-Self-hostable email orchestration microservice: pluggable templates (React Email, MJML, HTML), dual auth (API keys & HMAC), rate limiting, and Docker-first config.
-
-**[BQ Queue](https://github.com/blockqueue/bq-queue)** · TypeScript · Apache-2.0  
-Self-hostable job queue and signed webhook delivery on PostgreSQL / pg-boss — shared scheduling, idempotency, and Docker Compose for multi-service backends.
-
----
-
-## Tech Stack
-
-```typescript
-const techStack = {
-  languages: ["TypeScript", "JavaScript", "Go", "Python"],
-  frontend: ["React", "Next.js", "Vue.js", "Tailwind CSS"],
-  backend: ["Node.js", "Express", "NestJS", "GraphQL"],
-  databases: ["PostgreSQL", "MongoDB", "TursoDB", "Redis"],
-  orms: ["Prisma", "DrizzleORM", "Sequelize"],
-  platform: ["Docker", "Kubernetes", "Helm", "AWS"],
-  cicd: ["GitHub Actions", "GitLab CI", "CircleCI", "Ansible"],
-  tools: ["Turbo", "SST", "Playwright", "Jest"],
-};
-```
+| Area                           | Tools                                                               |
+| ------------------------------ | ------------------------------------------------------------------- |
+| **Containers & orchestration** | Docker, Docker Swarm, Kubernetes, Helm, kubeadm, Minikube, MicroK8s |
+| **CI/CD & automation**         | GitHub Actions, GitLab CI/CD, CircleCI, Ansible, Vagrant            |
+| **Cloud & infra**              | AWS (Lambda, API Gateway), Proxmox, Ubuntu Linux                    |
+| **Observability**              | Prometheus, Grafana, Loki, Alertmanager, Grafana Alloy, cAdvisor    |
+| **Supporting app stack**       | TypeScript, Node.js, NestJS, PostgreSQL, REST APIs                  |
 
 ---
 
-## GitHub Analytics
+## Featured infrastructure labs
 
-![GitHub Stats](./profile/stats.svg)
-![Top Languages](./profile/top-langs.svg)
+Public homelab and platform work in [`playground-devops`](https://github.com/chukwumaijem/playground-devops):
 
----
-
-## Focus Right Now
-
-- **Platform engineering:** Reliable CI/CD, container orchestration, and cloud architecture for production SaaS
-- **Product building:** Shipping and operating BlockQueue products for the African market
-- **Kubernetes:** Deepening practice toward CKAD
-- **Open source:** Self-hostable infrastructure tooling under [blockqueue](https://github.com/blockqueue)
+| Project                                                                               | What it demonstrates                                                                                                                          |
+| ------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **[Platform Homelab](https://github.com/chukwumaijem/playground-devops)**             | Proxmox multi-VM setup, Docker Swarm, Caddy Docker Proxy (label-driven HTTPS), Prometheus / Grafana / Loki / Alertmanager, Alloy log shipping |
+| **[Container Egress Gateway](https://github.com/chukwumaijem/playground-devops)**     | Deny-by-default egress with Ansible + Squid + iptables `DOCKER-USER`; Swarm demo for compliant vs rogue containers                            |
+| **[Helm Multi-Service Packaging](https://github.com/chukwumaijem/playground-devops)** | Umbrella + per-service Helm charts for a multi-tier app on Minikube / MicroK8s; kubeadm multi-node practice                                   |
 
 ---
 
-## Get In Touch
+## Production systems & tooling
 
-- **Email:** [chukwuma.zikora@gmail.com](mailto:chukwuma.zikora@gmail.com)
-- **LinkedIn:** [linkedin.com/in/chukwumazikora](https://www.linkedin.com/in/chukwumazikora)
+| Project                | Role                                                                         | Link                                                          |
+| ---------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **Property Governors** | Lead engineer - live property SaaS; owned cloud infra + deployment pipelines | [propertygovernors.com](https://propertygovernors.com)        |
+| **FirmLyt**            | Lead engineer - legal SaaS; AWS + Docker, CI/CD end-to-end                   | [firmlyt.com](https://firmlyt.com)                            |
+| **Notifier**           | Self-hostable email microservice (Docker, dual auth, rate limiting)          | [blockqueue/mailer](https://github.com/blockqueue/notifier)   |
+| **BQ Queue**           | PostgreSQL-backed job queue + signed webhook delivery                        | [blockqueue/bq-queue](https://github.com/blockqueue/bq-queue) |
+
+At **ShiftHealth** I design and maintain GitHub Actions + Docker CI/CD for a multi-environment healthcare platform, and have migrated workloads toward AWS serverless where it fits.
+
+---
+
+## GitHub analytics
+
+<p align="center">
+  <img src="./profile/stats.svg" alt="GitHub stats" height="165" />
+  <img src="./profile/top-langs.svg" alt="Top languages" height="165" />
+</p>
+
+---
+
+## Focus right now
+
+- Deepening Kubernetes operations (Helm, multi-node, observability on cluster)
+- Shipping GitOps (Argo CD) and production-shaped platform labs publicly
+- Keeping BlockQueue SaaS reliable in production
+- Looking for DevOps / Platform / SRE roles with real ownership of pipelines and reliability
+
+---
+
+## Links
+
 - **Portfolio:** [chukwumaijem.github.io](https://chukwumaijem.github.io/)
+- **Labs:** [github.com/chukwumaijem/playground-devops](https://github.com/chukwumaijem/playground-devops)
+- **LinkedIn:** [linkedin.com/in/chukwumazikora](https://www.linkedin.com/in/chukwumazikora)
+- **Email:** [chukwuma.zikora@gmail.com](mailto:chukwuma.zikora@gmail.com)
 
 ---
 
-> _"Success is not final, failure is not fatal: it is the courage to continue that counts.."_
+<sub>If you're hiring for DevOps or Platform Engineering, I'm happy to walk through the homelab in 15 minutes.</sub>
