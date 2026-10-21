@@ -9,11 +9,11 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Chukwuma Zikora&#39;s GitHub Stats, Rank: A-</title>
-        <desc id="descId">Total Stars Earned: 178, Total Commits  (last year) : 102, Total PRs: 175, Total Issues: 35, Contributed to (last year): 2</desc>
+        <desc id="descId">Total Stars Earned: 178, Total Commits  (last year) : 106, Total PRs: 175, Total Issues: 35, Contributed to (last year): 2</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #58A6FF;
+            fill: #0D9488;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #8B949E;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #C9D1D9;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8B949E;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #C9D1D9;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #58A6FF;
+      fill: #0D9488;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #58A6FF;
+      stroke: #0D9488;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #58A6FF;
+      stroke: #0D9488;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 89.74550731826103;
+        stroke-dashoffset: 89.39732412779064;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >102</text>
+      >106</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
